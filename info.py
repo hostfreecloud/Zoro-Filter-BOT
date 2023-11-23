@@ -121,7 +121,7 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://zoroxbot.onrender.com/".format(FQDN)
+    URL = "https://zoroxbot.onrender.com".format(FQDN)
 else:
     URL = "https://zoroxbot.onrender.com/".format(FQDN)
 
